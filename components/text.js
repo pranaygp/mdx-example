@@ -21,7 +21,7 @@ export const H1 = ({ children }) => {
   return (
     <Fragment>
       <a href={`#${id}`}>
-        <h1>{ children }</h1>
+        <h1 id={id}>{ children }</h1>
       </a>
 
       <style jsx>{`
@@ -31,6 +31,7 @@ export const H1 = ({ children }) => {
           display: inline-block;
           padding: 16px 8px;
           margin: 0;
+          line-height: 1.4;
         }
 
         a {
@@ -60,7 +61,7 @@ export const H2 = ({ children }) => {
   return (
     <Fragment>
       <a href={`#${id}`}>
-        <h2>{ children }</h2>
+        <h2 id={id}>{ children }</h2>
       </a>
 
       <style jsx>{`
@@ -89,7 +90,7 @@ export const H3 = ({ children }) => {
   return (
     <Fragment>
       <a href={`#${id}`}>
-        <h3>{ children }</h3>
+        <h3 id={id}>{ children }</h3>
       </a>
 
       <style jsx>{`
@@ -118,7 +119,7 @@ export const H4 = ({ children }) => {
   return (
     <Fragment>
       <a href={`#${id}`}>
-        <h4>{ children }</h4>
+        <h4 id={id}>{ children }</h4>
       </a>
 
       <style jsx>{`
