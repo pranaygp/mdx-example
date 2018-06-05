@@ -6,7 +6,7 @@ import Header from '../components/header'
 export default () => (
   <Layout>
     {posts.map((post, i) => (
-      <Link key={i} href={`/post?id=${post.fileName}`} as={`/post/${post.filename}`}>
+      <Link key={i} href={`/post?id=${post.fileName}`} as={`/post/${post.filename}`} prefetch>
         <a className="post" >
           <span className="post-meta">
             <h2>{post.title}</h2>
