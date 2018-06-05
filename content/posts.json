@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Using MDX",
+    "description": "A post about using MDX",
+    "published": "1528131102621",
+    "filename": "using-mdx"
+  },
+  {
+    "title": "Next and MDX",
+    "description": "A post about using MDX with Next.js",
+    "published": "1528137906954",
+    "filename": "next-and-mdx"
+  }
+]
